@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-raft"
+description = "This is an ComfyUI implementation of RAFT to generate motion brush"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["scipy"]
+
+[project.urls]
+Repository = "https://github.com/chaojie/ComfyUI-RAFT"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-RAFT"
+Icon = ""
